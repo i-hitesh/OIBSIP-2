@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitesh's - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="theme.css">
+    <link rel="icon" type="image/png" href="res/harry-removebg-preview.png" sizes="64x64">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e3449cf02b.js" crossorigin="anonymous"></script>
+</head>
+<!-- huh -->
+
+<body>
+    <header>
+        <nav>
+            <div class="right"> <a href="portfolio.html">
+                    .hitesh_
+                </a></div>
+            <div class="left">
+                <ul>
+                    <li><a href="portfolio.html">Home</a></li>
+                    <li><a href="#aboutme">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-moon" id="icon"></i>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="firstsec">
+            <div class="leftsec">
+                Hi, My name is <span class="mname">Hitesh</span>
+                <div>& I am a passionate</div>
+                <span id="element"></span><br>
+            </div>
+            <div class="rightsec">
+                <img src="res/dev3.png" alt="img">
+            </div>
+        </section>
+        <hr id="aboutme">
+
+        <section class="aboutMe">
+            <h1 class="upperCase">About Me</h1>
+            <div class="belbox1"></div>
+            <p>Here you will find more information about me, what I do, and my current skills mostly in terms of
+                programming and technology.</p>
+            <div class="abt_cont">
+                <div class="abt_cont-main">
+                    <h3 class="abt_cont-title">Get to know me!</h3>
+                    <p>I'm a <strong>Front end Web Developer</strong> building the Front-end Websites & Web Applications
+                        that leads to the success of all the overall products. Check out some of my work in the
+                        <strong>Project</strong> section.
+                    </p>
+                    <p>I'm open to <strong>Job</strong> opporunities where i can contribute, learn and gow. If you have
+                        a good opportunity that matches my skills then don't hesitate to <strong>contact</strong> me.
+                    </p>
+                </div>
+
+                <div class="down_cv">
+                    <a href="res/On Resume.pdf" download>
+                        <button type="button"><i class="fa-solid fa-download fa-bounce"></i> Download My CV</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="secondSection">
+            <span class="textG">What I have done so far</span>
+            <h1>Qualification</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <a href="https://www.tatastrive.com/" target="_blank"><img class="img-top" src="res/tata.png"></a>
+                    <div class="vertical-title">
+                        Full Stack Java Developer Training <br> (16 weeks)
+                    </div>
+                    <div class="vertical-desc">
+                        Introduction to the Job Role, Programming Fundamentals, Web Development Fundamentals
+                        (Front-End), JavaScript, Java and SpringBoot, React & Relational Databases Software development
+                        fundamentals.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="ext" src="res/st.png">
+                    <div class="vertical-title2">
+                        Bachelor's of Science in Information Technology (2020-2023)
+                    </div>
+                    <div class="vertical-desc2">
+                        Palghar, Mumbai (MH) <br> CGPA :- 8.80
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="ext" src="res/st.png">
+                    <div class="vertical-title2">
+                        St John's Junior College [HSC] <br> (2019-2020)
+                    </div>
+                    <div class="vertical-desc2">
+                        Palghar, Mumbai (MH) <br> 67.23%
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="ext" src="res/st.png">
+                    <div class="vertical-title2">
+                        Little Flower English High School [SSC] <br> (2017-2018)
+                    </div>
+                    <div class="vertical-desc2">
+                        Ghatkopar, Mumbai (MH) <br> 70.00%
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <hr id="project">
+
+        <section class="thirdSection">
+            <h1 class="upperCase">Projects</h1>
+            <div class="belbox2"></div>
+        </section>
+        <hr id="contact">
+
+        <section class="Contact">
+            <h1 class="upperCase">Contact</h1>
+            <div class="belbox3"></div>
+            <div class="main_form">
+                <form onsubmit="sendEmail(); reset(); return false;">
+
+                    <div class="row">
+
+                        <div class="input_group">
+                            <input type="text" id="name" required>
+                            <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+                        </div>
+
+                        <div class="input_group">
+                            <input type="text" id="number" required>
+                            <label for="number"><i class="fa-solid fa-phone"></i> Phone No.</label>
+                        </div>
+
+                    </div>
+
+                    <div class="input_group">
+                        <input type="text" id="email" required>
+                        <label for="email"><i class="fa-solid fa-envelope"></i> Email Id</label>
+                    </div>
+
+                    <div class="input_group">
+                        <textarea id="message" rows="8" required></textarea>
+                        <label for="message"><i class="fa-solid fa-message"></i> Your Message</label>
+                    </div>
+
+                    <button type="submit">SUBMIT <i class="fa-solid fa-paper-plane"></i></button>
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer.', 'Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <!-- <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "harrypandey@gmail.com",
+                Password: "Passwordhaibhai",
+                To: 'hiteshbpandey@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "New contact Form Enquiry",
+                Body: "And this is the body"
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script> -->
+
+</body>
+
+</html>

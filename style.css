@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(18, 18, 62) ! important;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(169, 169, 243);
+    font-size: 1.02rem;
+}
+
+main hr {
+    border: 0;
+    height: 1.2px;
+    background: #9c97f1;
+    margin: 60px 84px;
+}
+
+.right {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+.right a {
+    color: rgb(240, 240, 240);
+    text-decoration: none;
+
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.right :hover{
+    color :rgb(169, 169, 243);
+}
+
+.firstsec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 190px 0px;
+}
+
+.firstsec>div {
+    width: 30%;
+}
+
+.leftsec {
+    font-size: 3rem;
+}
+
+.rightsec img {
+    width: 80%;
+}
+
+.mname {
+    color: rgb(176, 107, 228);
+}
+
+#element {
+    color: rgb(196, 143, 245);
+}
+
+.aboutMe h1 {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: -14px;
+}
+
+.belbox1 {
+    border: 10px solid #9c97f1;
+    border-radius: 50px;
+    border-width: 3px;
+    margin: 0 48vw;
+}
+
+.aboutMe p {
+    text-align: center;
+    color: #555;
+    font-size: 22px;
+    font-weight: 500;
+    max-width: 78vw;
+    margin: auto;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.abt_cont {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.abt_cont div {
+    width: 35%;
+}
+
+.abt_cont div h3 {
+    color: white;
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+}
+
+.abt_cont-main p {
+    padding: 30px 0;
+    text-align: left;
+}
+
+.abt_cont-main p strong {
+    color: rgb(92, 53, 122);
+}
+
+
+.down_cv {
+    height: 44px;
+    width: 111px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15vw;
+    right: 6vw;
+}
+
+.down_cv a button {
+    border: 1px solid rgb(0, 0, 33);
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: rgb(105, 2, 105);
+    cursor: pointer;
+}
+
+.down_cv a button:hover {
+    border: 1px solid rgb(105, 2, 105);
+    color: rgb(92, 53, 122);
+    background-color: rgb(0, 0, 33);
+    transition: 0.6s;
+
+}
+
+.secondSection {
+    margin: auto;
+    max-width: 80vw;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    background: rgb(236, 236, 236);
+    height: 2px;
+    width: 70vw;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    background-color: white;
+    height: 93px;
+    width: 1px;
+    margin: 0 120px;
+}
+
+.vertical .img-top {
+    position: relative;
+    width: 60px;
+    top: -38px;
+    right: 16px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 67px;
+    width: 150px;
+}
+
+.vertical-title2 {
+    position: relative;
+    top: 55px;
+    width: 150px;
+}
+
+.vertical-desc2 {
+    position: relative;
+    top: 60px;
+    width: 150px;
+    color: grey;
+    font-size: 10px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 72px;
+    width: 150px;
+    color: grey;
+    font-size: 10px;
+}
+
+.vertical .ext {
+    position: relative;
+    width: 40px;
+    top: -46px;
+    right: 10px;
+}
+
+
+/* ThridSection  */
+
+.thirdSection {
+    margin: auto;
+    max-width: 80vw;
+    height: 80vh;
+}
+
+.thirdSection h1 {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: -14px;
+}
+
+.belbox2 {
+    border: 10px solid #9c97f1;
+    border-radius: 20px;
+    border-width: 3px;
+    margin: 0px 38vw;
+}
+
+
+/* contact */
+
+.Contact {
+    margin: auto;
+    max-width: 80vw;
+    height: 80vh;
+}
+
+.Contact h1 {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: -14px;
+}
+
+.belbox3 {
+    border: 10px solid #9c97f1;
+    border-radius: 20px;
+    border-width: 3px;
+    margin: 0px 38vw;
+}
+
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+}
